@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Abdul Muiz | A Lonely Gamer</title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="name">
+          <a href="/index.html"><h1><span>A</span>bdul <span>M</span>uiz</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="circle"><div class="bar"></div></div>
+          <ul>
+            <li><a href="/index.html" data-after="Home">Home</a></li>
+            <li><a href="/biodata.html" data-after="Biodata">Biodata</a></li>
+            <li><a href="/experience.html" data-after="Experience">Experience</a></li>
+            <li><a href="/education.html" data-after="Education">Education</a></li>
+            <li><a href="/family.html" data-after="Family">Family</a></li>
+            <li><a href="/gallery.html" data-after="Gallery">Gallery</a></li>
+            <li><a href="/contact.html" data-after="Contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Home Section  -->
+  <section id="home">
+    <div class="home container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Muiz <span></span></h1>
+        <a href="/biodata.html" type="button" class="button1">Portfolio</a>
+      </div>
+    </div>
+    <div class="sound__container">
+      <audio id="audio" autoplay="" repeat="">
+        <source src="./audio/audio1.mp3" type="audio/mpeg">
+      </audio>
+    
+      <button id="playPauseBTN" onclick="playPause()">Play &#9658;</button>
+      &nbsp;
+      &nbsp;
+      <button onclick="stop()">Stop &#9611;</button>
+    </div>
+  </section> 
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="name"><h1><span>A</span>bdul <span>M</span>uiz</h1></div>
+      <h2>Visit Me On</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Muiz. All rights reserved</p>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+</html>
